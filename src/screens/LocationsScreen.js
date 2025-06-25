@@ -46,7 +46,7 @@ const LocationsScreen = ({navigation}) => {
                     <Text style={styles.addButton}>＋</Text>
                 </TouchableOpacity>
             </View>
-
+            <Text style={[styles.title, {color: "#aaa" , textAlign: 'center', width: "90%", alignSelf: 'center'}]}>Add locations to have been to, and this determines how often you will come across certain roles</Text>
             <FlatList
                 data={locations}
                 keyExtractor={(item, index) => index.toString()}

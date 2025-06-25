@@ -4,7 +4,6 @@ import {
     Text,
     StyleSheet,
     TouchableOpacity,
-    Switch,
     Pressable, Image, Linking, Modal,
 } from 'react-native';
 import Share from 'react-native-share';
@@ -26,7 +25,7 @@ export default function SettingsScreen({navigation}) {
     };
 
     const openTerms = () => {
-        Linking.openURL('https://example.com/terms');
+        Linking.openURL('https://www.termsfeed.com/live/071b2138-9ce1-45c6-963e-175ce97e25a7');
     };
 
     return (
